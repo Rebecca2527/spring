@@ -14,5 +14,6 @@
     <aop:aspectj-autoproxy/>
     <!-- 声明Audience bean-->
     <bean class="rebecca.test.aspect.Aduience"/>
+    <bean class="rebecca.test.aspect.AduienceAround"/>
 
 </beans>
