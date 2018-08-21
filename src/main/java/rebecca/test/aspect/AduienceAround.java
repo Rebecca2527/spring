@@ -26,7 +26,7 @@ public class AduienceAround {
              * 当控制权交给被通知方时，即需要调用该方法
              * 如果不调用该方法 那么通知会阻塞被通知方法的调用
              */
-            proceedingJoinPoint.proceed();
+         //   proceedingJoinPoint.proceed();
             System.out.println("鼓掌~~~~~");
         } catch (Throwable throwable) {
             System.out.println("这是演的啥啊 退款！！~~~");
